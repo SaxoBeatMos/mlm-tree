@@ -1,0 +1,103 @@
+<html>
+<head>
+<title>PHP MLM TREE Unlimited Binary Tree</title>
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<style>
+.google-visualization-orgchart-lineleft {
+	border-left: 2px solid #333!important;
+}
+.google-visualization-orgchart-linebottom {
+	border-bottom: 2px solid #333!important;
+}
+.google-visualization-orgchart-lineright {
+	border-right: 2px solid #333!important;
+}
+.google-visualization-orgchart-node, .google-visualization-orgchart-node-medium{
+border: 0px!important;
+	padding: 8px!important;
+} 
+
+a.link {
+    color: #000;
+    text-decoration: none;
+}
+a.link:hover {
+    color: #fff;
+   background-color: #337ab7;
+}
+</style>
+</head>
+<body>
+
+<header>
+ <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"  >HOME</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+				<li><a href="#" ><i class="fa fa-home color-black"></i>Link1</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+          <li><a href=""  >Contact us</a></li>
+          </ul>
+		</div>
+		</div>
+	</nav>	
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4"> 
+		
+			<div class="panel panel-info">
+				<div class="panel-heading">
+				<h3 class="panel-title">Menu</h3>
+				</div>
+			
+			<ol class="list-group">
+<?= $leftcontent ?>
+
+			</ol>
+			
+			</div>
+
+		</div>
+		<!-- Content -->
+        <div class="col-sm-8">
+	<h1> Demo MLM Tree</h1>
+		<?= $maincontent ?>
+		<BR><BR>
+		MLM Tree | Organisation Tree | Binary Tree | Unlimited Binary Tree | 2x2 Binary | 3x3 Binary | 4x4 Binary
+		</div>
+		
+	</div>
+</div>	
+
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-12">
+				<hr><p class="text-muted">&copy; 2015-2016 V23.in All right reserved. <span class="pull-right"></span></p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>	
+<?= isset($footer) ? $footer : '' ?>
+
+
+</body>
+</html>
